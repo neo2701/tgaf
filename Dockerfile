@@ -9,6 +9,6 @@ COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
 # Bundle app source
-COPY src /app
+COPY ./ /app
 
 CMD [ "python", "bot.py" ]
