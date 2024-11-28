@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 # Bundle app source
 COPY ./ /app
 
-CMD [ "python", "bot.py" ]
+CMD [ "python", "-u" ,"bot.py" ]
